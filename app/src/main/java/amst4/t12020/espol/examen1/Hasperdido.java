@@ -8,14 +8,9 @@ import android.widget.TextView;
 
 public class Hasperdido extends AppCompatActivity {
 
-    TextView data;
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hasperdido);
-        Intent intent = getIntent();
-        data.setText("Haz contestado "+intent.getStringExtra("contestadas")+" preguntas correctamente");
     }
 }
