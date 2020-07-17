@@ -121,9 +121,9 @@ public class preguntas extends AppCompatActivity {
         this.pelicula.setImageURI(imgUri);
         this.pregunta.setText(pregunta.getPregunta());
         this.pregunta1.setText(pregunta.getResp1());
-        this.pregunta2.setText(pregunta.getResp1());
-        this.pregunta3.setText(pregunta.getResp1());
-        this.pregunta4.setText(pregunta.getResp1());
+        this.pregunta2.setText(pregunta.getResp2());
+        this.pregunta3.setText(pregunta.getResp3());
+        this.pregunta4.setText(pregunta.getResp4());
     }
 
     public Trivia presentarPreguntaRandom() {
